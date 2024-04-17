@@ -1,0 +1,43 @@
+h1{
+   color: blue;
+   font-size: 24px; 
+
+}
+p{
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 40px;
+   
+}
+#title{
+    text-decoration: underline;
+    font-weight: bold;
+    color: pink;
+    background-image: url("https://search.pstatic.net/sunny/?src=https%3A%2F%2Fpng.pngtree.com%2Fthumb_back%2Ffw800%2Fbackground%2F20220914%2Fpngtree-vector-illustration-of-pink-polka-dots-pattern-background-image_1464439.jpg&type=sc960_832");
+    padding: 30px;
+}
+
+
+.description{
+    font-weight: bold;
+    color: grey;
+    margin: 10px 20px;
+    
+}
+div{
+    
+    background-color: aquamarine;
+}
+
+div p{
+    background-color: bisque;
+    color: red;
+    box-shadow:inset;
+
+
+    
+}
+
+
