@@ -3,64 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./profile-style.css">
+    <link rel="stylesheet" href="./reset.css">
     <title>Profile</title>
 </head>
 <body>
     <header>
         <nav>
-            <div>
-                <img width="50" src="./아이콘/logo 1.svg">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact</a>
-                <span><a href=""><img src="./아이콘/Github아이콘.svg"></span></a>
-                <span><a href=""><img src="./아이콘/twitter아이콘.svg"></span></a>
-                <span><a href=""><img src="./아이콘/likendin_아이콘.svg"></span></a>
+            <div class="logo"><img width="80" src="./아이콘/logo 1.svg"></div>
+            <div class="nav-items">
+                <div class="nav_menu">
+                <div><a href="#">Home</a></div>
+                <div><a href="#">About</a></div>
+                <div><a href="#">Tech Stack</a></div>
+                <div><a href="#">Projects</a></div>
+                <div><a href="tel:+01092579471">Contact</a></div>
+                </div>
+                <div class="icon_group">
+                    <div><a href="https://github.com/gariguri"><img src="./아이콘/Github아이콘.svg"></a></div>
+                    <div><a href=""><img src="./아이콘/twitter아이콘.svg"></a></div>
+                    <div id="link_logo"><a href=""><img src="./아이콘/likendin_아이콘.svg"></a></div>
+                </div>
             </div>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Hi 👋,
-                My name is<br>
-                Gaeon<br>
+        <section id="section1">
+            <h2>Hi 👋,<br>
+                My name is
+                <span id="em">Gaeon</span><br>
                 I build things for web</h2>
-            <img width="200" src="https://us.123rf.com/450wm/martialred/martialred1608/martialred160800018/61263271-앱-및-웹-사이트의-사용자-계정-프로필-원형-아이콘.jpg">
+            <img width="300px" src="./아이콘/profile사진.png">
         </section>
         
-        <section>
-            <h1>My Tech Stack</h1>
+        <section id="section2">
+            <h1 >My Tech Stack</h1>
             <p>Technologies I’ve been working with recently</p>
             <div>
-                <img width="100%" src="./아이콘/프디아_아이콘.svg">
+                <img src="./아이콘/tech-stack-1.svg">
+                <img src="./아이콘/tech-stack-2.svg">
+                <img src="./아이콘/tech-stack-3.svg">
+                <img src="./아이콘/tech-stack-4.svg">
+                <img src="./아이콘/tech-stack-5.svg">
+                <img src="./아이콘/tech-stack-6.svg">
             </div>
-            <hr>
+    
         </section>
             
-        <section>
+        <section id="section3">
             <h1>Projects</h1>
             <p>Things I’ve built so far</p>
         </section>
+
+
+        <div id="section4">
+            <div>
+                <img class="project_img" src="./아이콘/프로젝트1.png">
+                <h2> PlanPuzzle </h2>
+                <p>개인의 일정을 효율적으로 관리하는 웹앱 서비스<br>
+                    캘린더, 채널 구독, 모집글 관련 기능을 제공한다.<br>
+                    자신이 소식을 받고 싶은 채널을 구독하고 새로운 일정을
+                    자신의 캘린더에 일정을 추가할 수 있다. 또한, 하나의 목적을 위한 모임을 가지기 위해 
+                    모집글을 올리고, 해당 모집글에 댓글을 달고 모집원들의 빈 시간의 일정을 찾아주고, 투표하는 기능을 통해
+                    새로운 일정을 캘린더에 추가할 수 있다.
+                </p>
+                <p>Tech stack : HTML , JavaScript, React, NodeJs, aws, MongoDB</p>
+                <img class="github" width="1px" src="./아이콘/Github아이콘.svg">
+                <a href="https://git.ajou.ac.kr/system-project-team-10">view code</a>
+               
+            </div>
+            <div>
+                <img class="project_img" src="./아이콘/project_img.png">
+                <p> Project Tile goes here </p>
+                <p> This is </p>
+                <p>Tech stack : HTML , JavaScript, SASS, React</p>
+            </div>
+            <div>
+                <img class="project_img" src="./아이콘/project_img.png">
+                <p> Project Tile goes here </p>
+                <p> This is </p>
+                <p>Tech stack : HTML , JavaScript, SASS, React</p>
+                
+            </div>
+        </div>
+        <div id="section5">
+            <div>
+                <img class="project_img" src="./아이콘/project_img.png">
+                
+                <p> Project Tile goes here </p>
+                <p> This is </p>
+                <p>Tech stack : HTML , JavaScript, SASS, React</p>
+                
+            </div>
+            <div>
+                <img class="project_img" src="./아이콘/project_img.png">
+                
+                <p> Project Tile goes here </p>
+                <p> This is </p>
+                <p>Tech stack : HTML , JavaScript, SASS, React</p>
+            </div>
+            <div>
+                <img class="project_img" src="./아이콘/project_img.png">
+                <p> Project Tile goes here </p>
+                <p> This is </p>
+                <p>Tech stack : HTML , JavaScript, SASS, React</p>
+            </div>
+
+        </div>
     </main>
     <footer>
-        <div>
-        <img width="50" src="./아이콘/logo 2.svg">
-            <span>+91 12345 09876</span>
-            <span>info@example.com</span>
-            <span><a href=""><img src="./아이콘/Github아이콘.svg"></span></a>
-            <span><a href=""><img src="./아이콘/twitter아이콘.svg"></span></a>
-            <span><a href=""><img src="./아이콘/likendin_아이콘.svg"></span></a>
+        <div class="logo"><img width="80" src="./아이콘/logo 2.svg"></div>
+        <div class="footer-menu">
+        <div class="info">
+            <div><a href="tel:+01092579471">010-9257-9471</a></div>
+            <div><a href="mailto:rkdjs1104@ajou.ac.kr">raeon1122@gmail.com</a></div>
         </div>
-        <hr>
-        <div>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Technologies</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-            <span>Designed and built by Pavan MG with Love & Coffee</span>
+
+        <div class="icon_group">
+            <div><a href=""><img src="./아이콘/Github아이콘.svg"></a></div>
+            <div><a href=""><img src="./아이콘/twitter아이콘.svg"></a></div>
+            <div><a href=""><img src="./아이콘/likendin_아이콘.svg"></a></div>
         </div>
+    
+        </div>
+        <hr id="line">
+        <div class="footer_end">
+            <div class="footer_list">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Technologies</a>
+                <a href="#">Projects</a>
+                <a href="tel:+01092579471">Contact</a>
+            
+        
+            </div>
+            <div id="right">Designed and built by <span id="name">Pavan MG</span> with <span id="love">Love</span> & <span id="coffee">Coffee</span></div>
+        </div>
+
     </footer>
 
 
