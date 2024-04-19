@@ -120,7 +120,12 @@
     padding:30px;
     justify-content: center;
     position: relative;
-    background-color: white;
+    background-color: rgb(248, 246, 234);
+    transform: scale(0.99); /* 초기에는 조금 축소된 상태로 설정 */
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+}
+.project-div {
+    transform: scale(1); /* 호버 시 확대되도록 설정 */
 }
 #section5, #section4{
     margin-bottom: 200px;
@@ -201,6 +206,7 @@
     font-family: "DM Sans";
     font-size:30px;
     font-style: normal;
+    margin-top:40px;
 }
 
 
@@ -216,6 +222,7 @@
     left:65%;
     bottom:20px;
     
+    
 }
 #section4 a{
 
@@ -228,15 +235,23 @@
     
 #section4 h2{
     text-align: center; 
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    color: #42446E;
+    
    
 }
 #section4 p{
     padding-bottom: 20px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    color:#3e3e42;
+    line-height: 20px;
+    
+    
 }
 
 body {
-    height: 100%;
-    margin: 0;
-    background: linear-gradient(to right, #d7f1fa, hwb(325 82% 4%));
+    background: rgb(244,185,211);
+    background: linear-gradient(80deg, rgba(244,185,211,0.24413515406162467) 0%, rgba(164,211,221,0.29735644257703087) 100%);
 }
