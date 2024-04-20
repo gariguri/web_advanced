@@ -15,3 +15,5 @@
 ## 스크린샷
 
 `1Page 반응형 포트폴리오 사이트`
+
+<img src="https://github.com/gariguri/web_advanced/assets/135303833/a6850db2-6dde-45f6-8351-444db2497f9a" width="50%" height="50%"/>
