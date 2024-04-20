@@ -3,10 +3,11 @@
     padding-right: 36px;
 
 }
+
+
 .nav_menu div a{ 
     
     color: #666;
-    
     text-align: center;
     font-family: "DM Sans";
     font-size: 20px;
@@ -15,7 +16,7 @@
     line-height: 26px; /* 130% */
     text-decoration-line: none;
 }
-.logo{
+.logo, .last-logo{
     display: inline-block;
     margin-top:40px;
     padding-right: 306px;
@@ -29,6 +30,7 @@
 .icon_group div {
     padding-right: 20px;
 }
+
 #link_logo{
     padding-right:160px;
 }
@@ -252,6 +254,6 @@
 }
 
 body {
-    background: rgb(244,185,211);
-    background: linear-gradient(80deg, rgba(244,185,211,0.24413515406162467) 0%, rgba(164,211,221,0.29735644257703087) 100%);
+    background: linear-gradient(to right, #d7f1fa, hwb(325 82% 4%));
+    
 }
